@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MaterialSkinExample")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Zeroit.Framework.MaterialWinformsExample")]
+[assembly: AssemblyDescription("Material Designed Windows Forms Controls Example")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Zeroit Dev Technlologies")]
 [assembly: AssemblyProduct("MaterialSkinExample")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © 2017 Zeroit Dev Technologies. All Rights Reserved.")]
+[assembly: AssemblyTrademark("ZDT")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

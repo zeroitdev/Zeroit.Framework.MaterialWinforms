@@ -1,9 +1,38 @@
-﻿using System.Drawing;
+﻿// ***********************************************************************
+// Assembly         : MaterialWinformsExample
+// Author           : ZEROIT
+// Created          : 02-16-2019
+//
+// Last Modified By : ZEROIT
+// Last Modified On : 04-04-2019
+// ***********************************************************************
+// <copyright file="MainForm.Designer.cs" company="Zeroit Dev Technlologies">
+//    This program is for showing how the Material Design controls work.
+//    Copyright ©  2017  Zeroit Dev Technologies
+//
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+//    You can contact me at zeroitdevnet@gmail.com or zeroitdev@outlook.com
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+using System.Drawing;
 using System.Windows.Forms;
 using Zeroit.Framework.MaterialWinforms;
 using Zeroit.Framework.MaterialWinforms.Controls;
 
-namespace MaterialWinformsExample
+namespace Zeroit.Framework.MaterialWinformsExample
 {
     partial class MainForm
     {
@@ -36,6 +65,7 @@ namespace MaterialWinformsExample
             System.Drawing.Drawing2D.GraphicsPath graphicsPath1 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath2 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath3 = new System.Drawing.Drawing2D.GraphicsPath();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             System.Drawing.Drawing2D.GraphicsPath graphicsPath4 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath5 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath6 = new System.Drawing.Drawing2D.GraphicsPath();
@@ -69,7 +99,6 @@ namespace MaterialWinformsExample
             System.Drawing.Drawing2D.GraphicsPath graphicsPath10 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath11 = new System.Drawing.Drawing2D.GraphicsPath();
             System.Drawing.Drawing2D.GraphicsPath graphicsPath12 = new System.Drawing.Drawing2D.GraphicsPath();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.materialFlatButton3 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialFlatButton();
             this.materialFlatButton1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialFlatButton();
             this.materialButton1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialRaisedButton();
@@ -135,6 +164,7 @@ namespace MaterialWinformsExample
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.materialTabControl1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialTabControl();
             this.mtp_Picker = new Zeroit.Framework.MaterialWinforms.Controls.MaterialTabPage();
+            this.materialBreadCrumbToolbar1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialBreadCrumbToolbar();
             this.materialAvatarView1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialAvatarView();
             this.materialDropDownColorPicker1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialDropDownColorPicker();
             this.materialDropDownDatePicker1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialDropDownDatePicker();
@@ -189,7 +219,6 @@ namespace MaterialWinformsExample
             this.materialSideDrawer1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialSideDrawer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.materialBreadCrumbToolbar1 = new Zeroit.Framework.MaterialWinforms.Controls.MaterialBreadCrumbToolbar();
             this.SideDrawerList.SuspendLayout();
             this.materialTabControl1.SuspendLayout();
             this.mtp_Picker.SuspendLayout();
@@ -287,7 +316,7 @@ namespace MaterialWinformsExample
             this.materialFloatingActionButton1.Depth = 0;
             this.materialFloatingActionButton1.Elevation = 5;
             this.materialFloatingActionButton1.Hoehe = 42;
-            this.materialFloatingActionButton1.Icon = global::MaterialWinformsExample.Properties.Resources.ic_action_action_search;
+            this.materialFloatingActionButton1.Icon = global::Zeroit.Framework.MaterialWinformsExample.Properties.Resources.ic_action_action_search;
             this.materialFloatingActionButton1.Location = new System.Drawing.Point(222, 644);
             this.materialFloatingActionButton1.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
             this.materialFloatingActionButton1.Name = "materialFloatingActionButton1";
@@ -307,8 +336,8 @@ namespace MaterialWinformsExample
             this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialFlatButton2.Capitalized = true;
             this.materialFlatButton2.Depth = 0;
-            this.materialFlatButton2.IconImage = global::MaterialWinformsExample.Properties.Resources.ic_action_action_search;
-            this.materialFlatButton2.Image = global::MaterialWinformsExample.Properties.Resources.ic_action_action_search;
+            this.materialFlatButton2.IconImage = global::Zeroit.Framework.MaterialWinformsExample.Properties.Resources.ic_action_action_search;
+            this.materialFlatButton2.Image = global::Zeroit.Framework.MaterialWinformsExample.Properties.Resources.ic_action_action_search;
             this.materialFlatButton2.Location = new System.Drawing.Point(565, 517);
             this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialFlatButton2.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
@@ -372,7 +401,7 @@ namespace MaterialWinformsExample
             this.sfdToolStripMenuItem});
             this.SideDrawerList.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
             this.SideDrawerList.Name = "materialContextMenuStrip1";
-            this.SideDrawerList.Size = new System.Drawing.Size(141, 898);
+            this.SideDrawerList.Size = new System.Drawing.Size(141, 982);
             // 
             // tmi_Datenbank1
             // 
@@ -775,6 +804,20 @@ namespace MaterialWinformsExample
             this.mtp_Picker.Size = new System.Drawing.Size(775, 555);
             this.mtp_Picker.TabIndex = 1;
             this.mtp_Picker.Text = "Pickers";
+            // 
+            // materialBreadCrumbToolbar1
+            // 
+            this.materialBreadCrumbToolbar1.Depth = 0;
+            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items"))));
+            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items1"))));
+            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items2"))));
+            this.materialBreadCrumbToolbar1.Location = new System.Drawing.Point(83, 460);
+            this.materialBreadCrumbToolbar1.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
+            this.materialBreadCrumbToolbar1.Name = "materialBreadCrumbToolbar1";
+            this.materialBreadCrumbToolbar1.Padding = new System.Windows.Forms.Padding(5);
+            this.materialBreadCrumbToolbar1.Size = new System.Drawing.Size(143, 23);
+            this.materialBreadCrumbToolbar1.TabIndex = 35;
+            this.materialBreadCrumbToolbar1.Text = "materialBreadCrumbToolbar1";
             // 
             // materialAvatarView1
             // 
@@ -1497,7 +1540,7 @@ namespace MaterialWinformsExample
             // 
             this.materialActionBarButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialActionBarButton1.Depth = 0;
-            this.materialActionBarButton1.Image = global::MaterialWinformsExample.Properties.Resources.ic_action_action_search;
+            this.materialActionBarButton1.Image = global::Zeroit.Framework.MaterialWinformsExample.Properties.Resources.ic_action_action_search;
             this.materialActionBarButton1.Location = new System.Drawing.Point(806, 0);
             this.materialActionBarButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialActionBarButton1.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
@@ -1510,7 +1553,7 @@ namespace MaterialWinformsExample
             // 
             this.materialActionBarButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialActionBarButton2.Depth = 0;
-            this.materialActionBarButton2.Image = global::MaterialWinformsExample.Properties.Resources.ic_launcher;
+            this.materialActionBarButton2.Image = global::Zeroit.Framework.MaterialWinformsExample.Properties.Resources.ic_launcher;
             this.materialActionBarButton2.Location = new System.Drawing.Point(848, 0);
             this.materialActionBarButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialActionBarButton2.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
@@ -1593,20 +1636,6 @@ namespace MaterialWinformsExample
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(783, 6);
             this.panel2.TabIndex = 36;
-            // 
-            // materialBreadCrumbToolbar1
-            // 
-            this.materialBreadCrumbToolbar1.Depth = 0;
-            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items"))));
-            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items1"))));
-            this.materialBreadCrumbToolbar1.Items.Add(((Zeroit.Framework.MaterialWinforms.Controls.BreadCrumbItem)(resources.GetObject("materialBreadCrumbToolbar1.Items2"))));
-            this.materialBreadCrumbToolbar1.Location = new System.Drawing.Point(83, 460);
-            this.materialBreadCrumbToolbar1.MouseState = Zeroit.Framework.MaterialWinforms.MouseState.HOVER;
-            this.materialBreadCrumbToolbar1.Name = "materialBreadCrumbToolbar1";
-            this.materialBreadCrumbToolbar1.Padding = new System.Windows.Forms.Padding(5);
-            this.materialBreadCrumbToolbar1.Size = new System.Drawing.Size(143, 23);
-            this.materialBreadCrumbToolbar1.TabIndex = 35;
-            this.materialBreadCrumbToolbar1.Text = "materialBreadCrumbToolbar1";
             // 
             // MainForm
             // 

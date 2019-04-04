@@ -7,8 +7,8 @@
     <ProjectGuid>{47409AA5-62AE-4189-8E83-C471502DF5E9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaterialWinformsExample</RootNamespace>
-    <AssemblyName>MaterialWinformsExample</AssemblyName>
+    <RootNamespace>Zeroit.Framework.MaterialWinformsExample</RootNamespace>
+    <AssemblyName>Zeroit.Framework.MaterialWinformsExample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
